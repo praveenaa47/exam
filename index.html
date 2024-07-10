@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL</title>
+    <link rel="stylesheet" href="./style .css">
+
+<!-- bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+
+
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+<!-- favicon -->
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+<!-- nav -->
+<nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">seaside <p>hotel</p></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      
+      </div>
+    </div>
+  </nav>
+  <!-- banner -->
+  <div class="container-fluid" style="background-image: url(https://media-magazine.trivago.com/wp-content/uploads/2018/02/27093832/rsz-fotolia-110410216-subscription-monthly-xxl.jpg); width:100%; height: 900%; background-size: cover;">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-4 ">
+            <h2 style="color: rgba(16, 25, 16, 0.967); margin-top: 100px;">ENJOY YOUR <br> Dream Vaccation</h2>
+            <p style="color: rgb(7, 10, 7); margin-top: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea fugiat iusto blanditiis aliquid a nemo non modi cupiditate placeat, aut iste dolorem? Odio, nam corporis maxime nulla amet officiis unde!
+            Molestiae nihil laborum sint incidunt, possimus non. Commodi magni odit in nostrum, optio eaque voluptatibus omnis culpa eum. Incidunt mollitia impedit vitae facilis dolore, harum totam rem quam iure aut!</p>
+            <button class="btn btn-warning" style="margin-top: 25px;">CHOOSE ROOM</button>
+        </div>
+        <div class="col-7"></div>
+    </div>
+</div>
+<!-- banner-->
+
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active m-2">
+        <img width="500px" height="500px"src="data:image/jpeg;base64,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" class="d-block w-100" alt="img">
+        <!-- cards -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img width="200px" height="200px" src="https://images.squarespace-cdn.com/content/v1/56dfd5cc9f7266ed7f04b64d/1585743751085-N2317B7K3I2YBZHPHENO/image-asset.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">STANDARD ROOM</h5>
+                  <p class="card-text bg-secondary">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">book for now ></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img width="200px" height="200px"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQipFiK07AHxC1VW3P3uF-ZnqWs3v3qsayWfQ&s" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DELUXE ROOM</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">book for now ></small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img width="200px" height="200px" src="https://res.cloudinary.com/simplotel/image/upload/w_5000,h_3333/x_834,y_0,w_3333,h_3333,r_0,c_crop,q_80,fl_progressive/w_750,f_auto,c_fit/ananta-spa-and-resort-pushkar/The_interiors_of_the_Classic_Rooms_in_Pushkar_featuring_a_bed,_a_sofa_chair_and_exquisite_furnishings_at_our_resort_135" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">PREMIUM ROOM</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">book for now ></small>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+     
+      
+    </div>
+    
+  </div>
+
+
+
+<!-- banner -->
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img width="600px" height="600px" src="https://i.pinimg.com/564x/84/3e/95/843e95801d11cdfa53fa5858fba80d3b.jpg" class="d-block w-100" alt="img2">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="div1">TESTIMONIALS</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nobis porro odit cumque eligendi, earum autem inventore necessitatibus laudantium incidunt maxime, tenetur harum totam facere ipsa sapiente laborum natus tempore.
+          Iure perferendis debitis officia perspiciatis maiores architecto, quae, obcaecati, voluptatum assumenda vel veniam itaque! Corporis dicta dolorem ea voluptate veniam architecto laudantium sint ex, excepturi assumenda voluptatibus officia quod iste.
+          Rem dicta asperiores modi odit facere illum magni quis odio! Rem fugiat cum, obcaecati laboriosam non harum debitis excepturi culpa, quo, maxime cupiditate magni dicta ullam nihil qui nulla animi.</p>
+        </div>
+      </div>
+     
+      </div>
+  
+    </div>
+    
+  </div>
+
+
+ <!-- Footer -->
+<footer class="text-center text-lg-start bg-secondary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>© 2021 Copyright:MDBootstrap.com</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    
+         
+   
+  </footer>
+  <!-- Footer -->
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
